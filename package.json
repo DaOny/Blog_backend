@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Blog",
+  "license": "ISC",
+  "author": "Daniel",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": " node index.js",
+    "dev-nodemon": "nodemon index.js",
+    "_commentdev": " arranca servidor en desarrollo con reinicio automático",
+    "start": "node index.js",
+    "_commentstart": "arranca servidor en producción",
+    "build": "tsc",
+    "_commentbuild": " si usas TypeScript, compila a JS",
+    "lint": "eslint .",
+    "_commentlint": " analiza todo el código",
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "_commenttest": " ejecuta pruebas si usas Jest"
+  },
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.8",
+    "supertest": "^7.2.2"
+  }
+}
